@@ -1,0 +1,30 @@
+article {
+	font-size: 25px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+article::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.img {
+	width: 30%;
+	border-radius: 50%;
+	shape-outside: circle(50% at 50% 50%);
+}
+
+.left {
+	float: left;
+	margin-right: 50px;
+	border: 2px solid orange;
+}
+
+.right {
+	float: right;
+	margin-left: 50px;
+	border: 2px solid pink;
+}
+
